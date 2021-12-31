@@ -1,0 +1,37 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  symbol: MyString
+  company_name: MyString
+  primary_exchange: MyString
+  open: 9.99
+  close: 9.99
+  high: 9.99
+  low: 9.99
+  latest_price: 9.99
+  previous_close: 9.99
+  change: 9.99
+  change_percent: 9.99
+  latest_volume: 9.99
+  avg_total_volume: 9.99
+  week52_high: 9.99
+  week52_low: 9.99
+  ytd_change: 9.99
+
+two:
+  symbol: MyString
+  company_name: MyString
+  primary_exchange: MyString
+  open: 9.99
+  close: 9.99
+  high: 9.99
+  low: 9.99
+  latest_price: 9.99
+  previous_close: 9.99
+  change: 9.99
+  change_percent: 9.99
+  latest_volume: 9.99
+  avg_total_volume: 9.99
+  week52_high: 9.99
+  week52_low: 9.99
+  ytd_change: 9.99
