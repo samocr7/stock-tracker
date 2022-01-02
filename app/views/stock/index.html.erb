@@ -1,0 +1,21 @@
+<img src='https://compote.slate.com/images/926e5009-c10a-48fe-b90e-fa0760f82fcd.png?width=1200&rect=680x453&offset=0x30'/><h1>Stonks</h1>
+<ul>
+<% @stocks.each do |stock| %>
+<li>
+<div>
+<br/>
+<h3><%= stock.symbol %></h3>
+<p><%= stock.company_name %></p>
+<h2><%= stock.latest_price %></h2>
+<h2><%= stock.change %></h2>
+<h1><%= stock.change_percent %>%</h1>
+<h3>Previous Close: <%= stock.previous_close %></h3>
+<h3>Latest Volume: <%= stock.latest_volume %></h3>
+<h3>Average Total Volume: <%= stock.avg_total_volume %></h3>
+<h3>Week 52 High: <%= stock.week52_high %></h3>
+<h3>Week 52 Low: <%= stock.week52_low %></h3>
+<h3>YTD Change: <%= stock.ytd_change %>%</h3>
+</div>
+</li>
+<% end %>
+</ul>
